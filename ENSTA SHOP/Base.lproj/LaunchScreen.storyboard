@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="svgg" translatesAutoresizingMaskIntoConstraints="NO" id="Tmu-se-aFK">
+                                <rect key="frame" x="61.666666666666657" y="347.66666666666669" width="270" height="157"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Make your own piece" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GNG-79-uUK">
+                                <rect key="frame" x="96" y="790.66666666666663" width="201" height="27.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.4599473615090659" green="0.35452280742347403" blue="0.80920348504577022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GNG-79-uUK" secondAttribute="trailing" constant="96" id="Gao-8w-mnY"/>
+                            <constraint firstItem="Tmu-se-aFK" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Jk4-7C-06k"/>
+                            <constraint firstItem="GNG-79-uUK" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="n7R-QW-JKx"/>
+                            <constraint firstItem="GNG-79-uUK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="96" id="nPe-RD-cKz"/>
+                            <constraint firstItem="GNG-79-uUK" firstAttribute="top" secondItem="Tmu-se-aFK" secondAttribute="bottom" constant="286.32999999999998" id="ojC-JT-3t8"/>
+                            <constraint firstItem="Tmu-se-aFK" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="xUp-aB-wfL"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="svgg" width="270" height="157"/>
+    </resources>
+</document>

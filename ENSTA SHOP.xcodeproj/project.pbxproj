@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91D54C4133918F940E7EBE75 /* Pods_ENSTA_SHOP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BEF8FE16AD05C90759C8792 /* Pods_ENSTA_SHOP.framework */; };
+		F43FB3922F25C4B10090689A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43FB3912F25C4B10090689A /* ViewModel.swift */; };
+		F455592C2F1F06B20059CE98 /* APIsDocuments.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455592B2F1F06B20059CE98 /* APIsDocuments.swift */; };
+		F455592E2F1F74100059CE98 /* ValidationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455592D2F1F740F0059CE98 /* ValidationVC.swift */; };
+		F45559302F202A250059CE98 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455592F2F202A240059CE98 /* AuthService.swift */; };
+		F46AF19B2F1EFF080073A439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46AF19A2F1EFF080073A439 /* AppDelegate.swift */; };
+		F46AF19D2F1EFF080073A439 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46AF19C2F1EFF080073A439 /* SceneDelegate.swift */; };
+		F46AF19F2F1EFF080073A439 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46AF19E2F1EFF080073A439 /* ViewController.swift */; };
+		F46AF1A22F1EFF080073A439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46AF1A02F1EFF080073A439 /* Main.storyboard */; };
+		F46AF1A52F1EFF080073A439 /* ENSTA_SHOP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F46AF1A32F1EFF080073A439 /* ENSTA_SHOP.xcdatamodeld */; };
+		F46AF1A72F1EFF0A0073A439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46AF1A62F1EFF0A0073A439 /* Assets.xcassets */; };
+		F46AF1AA2F1EFF0A0073A439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46AF1A82F1EFF0A0073A439 /* LaunchScreen.storyboard */; };
+		F4A980A22F3038A200651728 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A980A12F3038A200651728 /* MainVC.swift */; };
+		F4A980A42F3038AF00651728 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A980A32F3038AF00651728 /* NotificationVC.swift */; };
+		F4A980A62F3038B900651728 /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A980A52F3038B900651728 /* CartVC.swift */; };
+		F4A980A82F3038C600651728 /* MoreInformationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A980A72F3038C600651728 /* MoreInformationVC.swift */; };
+		F4B3E8182F26F4EB0015ABCE /* ConfirmCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B3E8172F26F4EB0015ABCE /* ConfirmCodeViewModel.swift */; };
+		F4DB96222F2C3D5900DC34F6 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DB96212F2C3D5900DC34F6 /* APIClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BEF8FE16AD05C90759C8792 /* Pods_ENSTA_SHOP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ENSTA_SHOP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97B6C1AF92DBBA7B839F4472 /* Pods-ENSTA SHOP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ENSTA SHOP.debug.xcconfig"; path = "Target Support Files/Pods-ENSTA SHOP/Pods-ENSTA SHOP.debug.xcconfig"; sourceTree = "<group>"; };
+		A0E9260139ED8A2CADCCF78A /* Pods-ENSTA SHOP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ENSTA SHOP.release.xcconfig"; path = "Target Support Files/Pods-ENSTA SHOP/Pods-ENSTA SHOP.release.xcconfig"; sourceTree = "<group>"; };
+		F43FB3912F25C4B10090689A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		F455592B2F1F06B20059CE98 /* APIsDocuments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIsDocuments.swift; sourceTree = "<group>"; };
+		F455592D2F1F740F0059CE98 /* ValidationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationVC.swift; sourceTree = "<group>"; };
+		F455592F2F202A240059CE98 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		F46AF1972F1EFF080073A439 /* ENSTA SHOP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ENSTA SHOP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46AF19A2F1EFF080073A439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F46AF19C2F1EFF080073A439 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F46AF19E2F1EFF080073A439 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F46AF1A12F1EFF080073A439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F46AF1A42F1EFF080073A439 /* ENSTA_SHOP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ENSTA_SHOP.xcdatamodel; sourceTree = "<group>"; };
+		F46AF1A62F1EFF0A0073A439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F46AF1A92F1EFF0A0073A439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F46AF1AB2F1EFF0A0073A439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4A980A12F3038A200651728 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		F4A980A32F3038AF00651728 /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		F4A980A52F3038B900651728 /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
+		F4A980A72F3038C600651728 /* MoreInformationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInformationVC.swift; sourceTree = "<group>"; };
+		F4B3E8172F26F4EB0015ABCE /* ConfirmCodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmCodeViewModel.swift; sourceTree = "<group>"; };
+		F4DB96212F2C3D5900DC34F6 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F46AF1942F1EFF080073A439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D54C4133918F940E7EBE75 /* Pods_ENSTA_SHOP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96D7B2E9A4BF75C7D4EF7972 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97B6C1AF92DBBA7B839F4472 /* Pods-ENSTA SHOP.debug.xcconfig */,
+				A0E9260139ED8A2CADCCF78A /* Pods-ENSTA SHOP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A79FF9C5150D9E3AC8045AB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BEF8FE16AD05C90759C8792 /* Pods_ENSTA_SHOP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F45559262F1F064F0059CE98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F455592B2F1F06B20059CE98 /* APIsDocuments.swift */,
+				F4DB96202F2C3D2B00DC34F6 /* Network */,
+				F4B3E8142F26F3C50015ABCE /* Servieces */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F45559272F1F06580059CE98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4A9809F2F3032F200651728 /* AuthViewControllers */,
+				F4A980A02F30331000651728 /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F45559282F1F06610059CE98 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F43FB3912F25C4B10090689A /* ViewModel.swift */,
+				F4B3E8172F26F4EB0015ABCE /* ConfirmCodeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F455592A2F1F06800059CE98 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F46AF19A2F1EFF080073A439 /* AppDelegate.swift */,
+				F46AF19C2F1EFF080073A439 /* SceneDelegate.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F46AF18E2F1EFF080073A439 = {
+			isa = PBXGroup;
+			children = (
+				F46AF1992F1EFF080073A439 /* ENSTA SHOP */,
+				F46AF1982F1EFF080073A439 /* Products */,
+				96D7B2E9A4BF75C7D4EF7972 /* Pods */,
+				A79FF9C5150D9E3AC8045AB9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F46AF1982F1EFF080073A439 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F46AF1972F1EFF080073A439 /* ENSTA SHOP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F46AF1992F1EFF080073A439 /* ENSTA SHOP */ = {
+			isa = PBXGroup;
+			children = (
+				F455592A2F1F06800059CE98 /* Source */,
+				F45559262F1F064F0059CE98 /* Model */,
+				F45559272F1F06580059CE98 /* View */,
+				F45559282F1F06610059CE98 /* ViewModel */,
+				F46AF1A02F1EFF080073A439 /* Main.storyboard */,
+				F46AF1A62F1EFF0A0073A439 /* Assets.xcassets */,
+				F46AF1A82F1EFF0A0073A439 /* LaunchScreen.storyboard */,
+				F46AF1AB2F1EFF0A0073A439 /* Info.plist */,
+				F46AF1A32F1EFF080073A439 /* ENSTA_SHOP.xcdatamodeld */,
+			);
+			path = "ENSTA SHOP";
+			sourceTree = "<group>";
+		};
+		F4A9809F2F3032F200651728 /* AuthViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F46AF19E2F1EFF080073A439 /* ViewController.swift */,
+				F455592D2F1F740F0059CE98 /* ValidationVC.swift */,
+			);
+			path = AuthViewControllers;
+			sourceTree = "<group>";
+		};
+		F4A980A02F30331000651728 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F4A980A12F3038A200651728 /* MainVC.swift */,
+				F4A980A32F3038AF00651728 /* NotificationVC.swift */,
+				F4A980A52F3038B900651728 /* CartVC.swift */,
+				F4A980A72F3038C600651728 /* MoreInformationVC.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F4B3E8142F26F3C50015ABCE /* Servieces */ = {
+			isa = PBXGroup;
+			children = (
+				F455592F2F202A240059CE98 /* AuthService.swift */,
+			);
+			path = Servieces;
+			sourceTree = "<group>";
+		};
+		F4DB96202F2C3D2B00DC34F6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F4DB96212F2C3D5900DC34F6 /* APIClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F46AF1962F1EFF080073A439 /* ENSTA SHOP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46AF1AE2F1EFF0A0073A439 /* Build configuration list for PBXNativeTarget "ENSTA SHOP" */;
+			buildPhases = (
+				7D9B3AD5948C42F39BF3174F /* [CP] Check Pods Manifest.lock */,
+				F46AF1932F1EFF080073A439 /* Sources */,
+				F46AF1942F1EFF080073A439 /* Frameworks */,
+				F46AF1952F1EFF080073A439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ENSTA SHOP";
+			productName = "ENSTA SHOP";
+			productReference = F46AF1972F1EFF080073A439 /* ENSTA SHOP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F46AF18F2F1EFF080073A439 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F46AF1962F1EFF080073A439 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F46AF1922F1EFF080073A439 /* Build configuration list for PBXProject "ENSTA SHOP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F46AF18E2F1EFF080073A439;
+			productRefGroup = F46AF1982F1EFF080073A439 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F46AF1962F1EFF080073A439 /* ENSTA SHOP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F46AF1952F1EFF080073A439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46AF1AA2F1EFF0A0073A439 /* LaunchScreen.storyboard in Resources */,
+				F46AF1A72F1EFF0A0073A439 /* Assets.xcassets in Resources */,
+				F46AF1A22F1EFF080073A439 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D9B3AD5948C42F39BF3174F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ENSTA SHOP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F46AF1932F1EFF080073A439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B3E8182F26F4EB0015ABCE /* ConfirmCodeViewModel.swift in Sources */,
+				F46AF19F2F1EFF080073A439 /* ViewController.swift in Sources */,
+				F4A980A82F3038C600651728 /* MoreInformationVC.swift in Sources */,
+				F46AF19B2F1EFF080073A439 /* AppDelegate.swift in Sources */,
+				F4DB96222F2C3D5900DC34F6 /* APIClient.swift in Sources */,
+				F4A980A62F3038B900651728 /* CartVC.swift in Sources */,
+				F4A980A22F3038A200651728 /* MainVC.swift in Sources */,
+				F455592C2F1F06B20059CE98 /* APIsDocuments.swift in Sources */,
+				F455592E2F1F74100059CE98 /* ValidationVC.swift in Sources */,
+				F4A980A42F3038AF00651728 /* NotificationVC.swift in Sources */,
+				F45559302F202A250059CE98 /* AuthService.swift in Sources */,
+				F46AF19D2F1EFF080073A439 /* SceneDelegate.swift in Sources */,
+				F43FB3922F25C4B10090689A /* ViewModel.swift in Sources */,
+				F46AF1A52F1EFF080073A439 /* ENSTA_SHOP.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F46AF1A02F1EFF080073A439 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F46AF1A12F1EFF080073A439 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F46AF1A82F1EFF0A0073A439 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F46AF1A92F1EFF0A0073A439 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F46AF1AC2F1EFF0A0073A439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F46AF1AD2F1EFF0A0073A439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F46AF1AF2F1EFF0A0073A439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97B6C1AF92DBBA7B839F4472 /* Pods-ENSTA SHOP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3K677TQ5Z9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ENSTA SHOP/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Marwan.cam.ENSTA-SHOP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F46AF1B02F1EFF0A0073A439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0E9260139ED8A2CADCCF78A /* Pods-ENSTA SHOP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3K677TQ5Z9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ENSTA SHOP/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Marwan.cam.ENSTA-SHOP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F46AF1922F1EFF080073A439 /* Build configuration list for PBXProject "ENSTA SHOP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46AF1AC2F1EFF0A0073A439 /* Debug */,
+				F46AF1AD2F1EFF0A0073A439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F46AF1AE2F1EFF0A0073A439 /* Build configuration list for PBXNativeTarget "ENSTA SHOP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46AF1AF2F1EFF0A0073A439 /* Debug */,
+				F46AF1B02F1EFF0A0073A439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F46AF1A32F1EFF080073A439 /* ENSTA_SHOP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F46AF1A42F1EFF080073A439 /* ENSTA_SHOP.xcdatamodel */,
+			);
+			currentVersion = F46AF1A42F1EFF080073A439 /* ENSTA_SHOP.xcdatamodel */;
+			path = ENSTA_SHOP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F46AF18F2F1EFF080073A439 /* Project object */;
+}
